@@ -2,6 +2,7 @@ package Model;
 
 public class Pessoa {
 
+	protected int id = 0;
 	protected String nome;
 	protected int idade;
 	protected String dataNascimento;
@@ -64,6 +65,14 @@ public class Pessoa {
 
 	public void setNomeMae(String nomeMae) {
 		this.nomeMae = nomeMae;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 }
